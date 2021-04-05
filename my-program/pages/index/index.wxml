@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="flex-row container">
+  <view class="content-container flex-grow">
+    <home wx:if="{{tabbarIndex == 0}}"></home>
+  </view>
+  <view class="foot-container">
+		<mp-tabbar ext-class="foot-tabbar" list="{{list}}" data-tabbarIndex="index" bindchange="tabChange"></mp-tabbar>
+	</view>
+</view>

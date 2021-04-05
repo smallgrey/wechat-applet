@@ -1,0 +1,8 @@
+<view class="flex-row home-box">
+	<view class='top_title' style='padding-top:{{(headerHeight + statusBarHeight)/2 - 12}}px'>
+		<text>首页</text>
+	</view>
+	<view class="flex-grow home-container">
+		<view bindtap="uploadExcel">上传</view>
+	</view>
+</view>
